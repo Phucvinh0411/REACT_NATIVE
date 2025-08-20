@@ -1,0 +1,1 @@
+{"version":3,"file":"bankaccount.d.ts","sourceRoot":"","sources":["../src/bankaccount.ts"],"names":[],"mappings":"AACA,qBAAa,WAAW;IACpB,OAAO,EAAE,MAAM,CAAC;gBACH,OAAO,EAAE,MAAM;IAI5B,OAAO,CAAC,KAAK,EAAE,MAAM;IASrB,QAAQ,CAAC,KAAK,EAAC,MAAM;CAYxB"}
