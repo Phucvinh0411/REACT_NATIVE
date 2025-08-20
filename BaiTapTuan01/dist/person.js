@@ -12,7 +12,20 @@ class Person {
         return `Name: ${this.name}, Age: ${this.age}`;
     }
 }
-//  use this class
 const person = new Person('Alice', 30);
 console.log(person.displayInfo());
+// 2. Write a class Student extending Person with an additional attribute grade. Add a method to
+// display all info.
+class Student extends Person {
+    grade;
+    constructor(name, age, grade) {
+        super(name, age);
+        this.grade = grade;
+    }
+    displayInfo() {
+        return `${super.displayInfo()}, Grade: ${this.grade}`;
+    }
+}
+const student = new Student('Bob', 20, 'A');
+console.log(student.displayInfo());
 //# sourceMappingURL=person.js.map
