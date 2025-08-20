@@ -1,12 +1,19 @@
 // import { Person } from './person';
 import {Car} from './car.js';
+import {Rectange} from './rectangle.js'
 function hello(name: string): string {
   return `Hello, ${name}!`;
 }
 
-function cau2(car:Car): string{
+function cau3(car:Car): string{
     return car.displayInfor();
 }
 
+function cau4(rec: Rectange):number{
+    return rec.calculateArea();
+}
+
 const car = new Car('Toyota', 'Corolla');
-console.log(cau2(car));
+const rec= new Rectange(10,20);
+console.log(cau3(car));
+console.log("Calculate Area: ", cau4(rec));
