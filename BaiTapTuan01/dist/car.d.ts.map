@@ -1,0 +1,1 @@
+{"version":3,"file":"car.d.ts","sourceRoot":"","sources":["../src/car.ts"],"names":[],"mappings":"AACA,cAAM,GAAG;IACL,KAAK,EAAC,MAAM,CAAC;IACb,KAAK,EAAC,MAAM,CAAC;gBACD,KAAK,EAAC,MAAM,EAAE,KAAK,EAAC,MAAM;IAKtC,YAAY,IAAG,MAAM;CAIxB;AACD,OAAO,EAAE,GAAG,EAAE,CAAC"}

@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 // Create a class Person with attributes name and age. Write a method to display this information.
 class Person {
     name;
@@ -28,4 +26,5 @@ class Student extends Person {
 }
 const student = new Student('Bob', 20, 'A');
 console.log(student.displayInfo());
+export {};
 //# sourceMappingURL=person.js.map

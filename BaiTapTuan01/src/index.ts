@@ -1,8 +1,12 @@
 // import { Person } from './person';
+import {Car} from './car.js';
 function hello(name: string): string {
   return `Hello, ${name}!`;
 }
 
-// function cau1(): person
+function cau2(car:Car): string{
+    return car.displayInfor();
+}
 
-console.log(hello("200Lab"));
+const car = new Car('Toyota', 'Corolla');
+console.log(cau2(car));
